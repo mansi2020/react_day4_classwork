@@ -1,0 +1,7 @@
+.body_Container{
+    display:flex;
+    flex-direction: column;
+    gap:6rem;
+    padding:2rem 6rem;
+    margin-top: 80px;
+}
