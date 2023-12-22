@@ -5,9 +5,9 @@ import cardData from './data.json';
 
 const Body = () => {
   return (
-    <div className='body_Container'>
+    <div className='body_Container' >
       {cardData.map((item)=>{
-        return <Card title={item.title} subtitle={item.subtitle}/>
+        return <Card title={item.title} subtitle={item.subtitle} color={item.color}/>
       })}
     </div>
   )

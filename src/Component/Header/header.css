@@ -6,9 +6,10 @@
     width:100vw;
     position: fixed;
     top:0;
-    padding:0 20px;
+    padding:0 40px;
     z-index: 20;
-    background-color: white;
+    background-color: black;
+    color:white;
     border: 1px solid #e5e7eb;
 }
 .header_container h1{
